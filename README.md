@@ -1,5 +1,3 @@
 # Book-list-tutorial
-1-ish kitoblarni bazaga saqlayman
-2-ish kitobni ko'rish tugmasini yarataman 
-3-ish tahrirlashni yarataman 
-4-ish o'chirishni yarataman
+Bu dastur phpda yozilgan birinchi dasturim bu dasturda kitoblarni nomi, muallifi, yili kiritib saqlash mumkun.
+Bunda mysql ishlatilgan kitoblarni qo'shish, ko'rish, o'chirish, tahrirlash mavjud.
