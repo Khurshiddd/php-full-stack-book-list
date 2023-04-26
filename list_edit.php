@@ -13,7 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['PUT'])) {
     $author = $_POST['author'];
     $yili = $_POST['yili'];
 
-    $stm = $pdo->prepare("UPDATE kitoblar SET nomi=:nomi, author=:author,yili=:author WHERE id=:id");
+    $stm = $pdo->prepare("UPDATE kitoblar SET nomi=:nomi, author=:author,yili=:yili WHERE id=:id");
     $stm->execute([
         'nomi'=>$nomi,
         'author'=>$author,
